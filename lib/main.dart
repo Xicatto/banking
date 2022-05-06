@@ -54,11 +54,11 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           BottomNavigationBarItem(
             label: '',
-            icon: Icon(Icons.stacked_line_chart_rounded),
+            icon: Icon(Icons.bar_chart),
           ),
           BottomNavigationBarItem(
             label: '',
-            icon: Icon(Icons.abc),
+            icon: Icon(Icons.person),
           ),
         ],
       ),
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     const Padding(
                       padding: EdgeInsets.only(bottom: 16.0),
                       child: Align(
-                        alignment: Alignment.centerLeft,
+                        alignment: Alignment.center,
                         child: Text(
                           'Credit Card',
                           style: TextStyle(fontSize: 42, color: Colors.white),
@@ -202,11 +202,11 @@ class _MyHomePageState extends State<MyHomePage> {
           const Align(
             alignment: Alignment.center,
             child: Text(
-              '+\$20,550',
+              '+\$20,550.00',
               style: TextStyle(
                   color: Color(0xFF38d3c1),
                   fontWeight: FontWeight.bold,
-                  fontSize: 28),
+                  fontSize: 24),
             ),
           ),
           Row(
@@ -265,10 +265,10 @@ class _MyHomePageState extends State<MyHomePage> {
           const Align(
             alignment: Alignment.center,
             child: Text(
-              '-\$5,481',
+              '-\$5,481.00',
               style: TextStyle(
                   color: Color(0xFFe57060),
-                  fontSize: 28,
+                  fontSize: 24,
                   fontWeight: FontWeight.bold),
             ),
           ),
@@ -468,7 +468,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Padding(
                         padding: EdgeInsets.only(left: 24.0),
                         child: Text(
-                          '+\$500',
+                          '+\$500.00',
                           style: TextStyle(
                             color: Color(0xFF38d3c1),
                             fontWeight: FontWeight.w600,
